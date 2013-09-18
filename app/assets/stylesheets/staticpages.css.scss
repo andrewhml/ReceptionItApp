@@ -1,0 +1,87 @@
+// Place all the styles related to the staticpages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.button {
+	margin-top: 10px;
+  display: inline-block;
+  padding: 14px 27px 14px 29px;
+  color: #222;
+  white-space: nowrap;
+  border-radius: 50px;
+  text-align: center;
+  cursor: pointer;
+  background: #e5e5e5;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-transition-property: color, background-color;
+  -webkit-transition-duration: 0.1s;
+  -webkit-transition-timing-function: cubic-bezier(0.694, 0.0482, 0.335, 1);
+  -moz-transition-property: color, background-color;
+  -moz-transition-duration: 0.1s;
+  -moz-transition-timing-function: cubic-bezier(0.694, 0.0482, 0.335, 1);
+  -ms-transition-property: color, background-color;
+  -ms-transition-duration: 0.1s;
+  -ms-transition-timing-function: cubic-bezier(0.694, 0.0482, 0.335, 1);
+  -o-transition-property: color, background-color;
+  -o-transition-duration: 0.1s;
+  -o-transition-timing-function: cubic-bezier(0.694, 0.0482, 0.335, 1);
+  transition-property: color, background-color;
+  transition-duration: 0.1s;
+  transition-timing-function: cubic-bezier(0.694, 0.0482, 0.335, 1);
+  /* Inherited from body: font-family: 'Gotham SSm A', 'Gotham SSm B', sans-serif; */
+
+  font-size: 14px;
+  -moz-user-select: -moz-none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+.button:hover {
+  background: #fff;
+}
+.button--small {
+  padding: 9px 24px 9px 25px;
+  font-size: 12px;
+}
+.button--mini {
+  padding: 6px 19px 6px 20px;
+  font-size: 10px;
+}
+.button--coolgrey {
+  background-color: #3f4546;
+  color: #fff;
+}
+.button--white {
+  background: #fff;
+  color: #222;
+}
+.button--white:hover {
+  background: #e5e5e5;
+  color: #222;
+}
+.button--dark {
+  background-color: #222;
+  color: #fff;
+}
+.button--dark:hover {
+  background-color: #444;
+}
+.button--centered {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  margin-top: -15px;
+}
+.bgimg {
+    background-image: url('test_purple.png'); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
