@@ -1,0 +1,7 @@
+<%= simple_form_for @subscribe do |f| %>
+	<div class="control-group">
+		<%= f.input :sub_email, placeholder: "Enter email to join" %>
+		<%= f.input :sub_state, :collection => sub_state_options, :hint => "Select state" %>
+		<%= submit_tag nil, :class => 'button button--small button--dark' %>
+	</div>
+<% end %>

@@ -1,0 +1,9 @@
+<%= simple_form_for @subscribe do |f| %>
+	<div class="row-fluid span4 offest2">
+		<div class="control-group">
+			<%= f.input :sub_email, placeholder: "Enter email to join" %>
+			<%= f.input :sub_state, :collection => sub_state_options, placeholder: "MA" %>
+			<%= submit_tag nil, :class => 'button button--small button--dark' %>
+		</div>
+	</div>
+<% end %>

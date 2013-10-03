@@ -5,6 +5,36 @@
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
+<!--[if IE 7]><html lang="en" class="ie7"><![endif]-->
+<!--[if IE 8]><html lang="en" class="ie8"><![endif]-->
+<!--[if IE 9]><html lang="en" class="ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><html lang="en"><![endif]-->
+<!--[if !IE]><html lang="en"><![endif]-->
+	<meta charset="utf-8">
+	
+	<script src="javascripts/lib/modernizr.js"></script>
+	<script src="javascripts/lib/pace.js"></script>
+	<script>(function(w){var dpr=((w.devicePixelRatio===undefined)?1:w.devicePixelRatio);if(!!w.navigator.standalone){var r=new XMLHttpRequest();r.open('GET','/retinaimages.php?devicePixelRatio='+dpr,false);r.send()}else{document.cookie='devicePixelRatio='+dpr+'; path=/'}})(window)</script>
+	<noscript><style id="devicePixelRatio" media="only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2)">html{background-image:url("/retinaimages.php?devicePixelRatio=2")}</style></noscript>
+	
+	<title>ReceptionIt Venue Concierge</title>
+	
+	<meta name="robots" content="index, nofollow">
+	<meta name="description" content="Your website description here">
+	<meta name="keywords" content="your, website, keywords, here">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	<link rel="stylesheet" href="stylesheets/lib/font-awesome.min.css">
+	<link rel="stylesheet" href="stylesheets/lib/magnific-popup.css">
+	<link rel="stylesheet" href="stylesheets/lib/lite.css">
+	<link rel="stylesheet" href="stylesheets/style.css">
+	
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	
+	<link rel="shortcut icon" href="favicon/favicon.ico">
+
 </head>
 <body>
 
