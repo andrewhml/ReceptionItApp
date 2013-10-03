@@ -12,5 +12,13 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require 'lib/jquery.min.js'
+//= require 'lib/classie.js'
+//= require 'lib/smoothscroll.js'
+//= require 'lib/jquery.fittext.js'
+//= require 'lib/jquery.superslides.min.js'
+//= require 'lib/jquery.sudoslider.min.js'
+//= require 'lib/jquery.mixitup.min.js'
+//= require 'lib/jquery.magnific-popup.min.js'
+//= require 'main.js'
 //= require_tree .
-

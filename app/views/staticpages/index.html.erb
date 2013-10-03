@@ -6,9 +6,10 @@
 				<!-- Slide -->
 				<div style="background-image: url('assets/placeholder-slide-1.jpg');" class="fullscreen-image"></div>
 				<div class="header-center fade-in">
+					<%= image_tag('ReceptionIt_logo_w.png', :class => 'preserve') %>
 					<h1 class="fittext white">Show The World</h1>
 					<p class="uppercase white">Keep calm, create awesome stuff &amp; show it to the world</p>
-					<p><a href="#introduction" class="button white-border">Experience more</a></p>
+					<p><a href="#introduction" class="button dark-bg">Experience more</a></p>
 				</div>
 			</li>
 			<li>
@@ -28,28 +29,57 @@
 					<p class="uppercase white">Keep your fears to yourself, but share your creativity with others</p>
 					<p>
 						<a href="#"><i class="icon-twitter medium-icon white-border"></i></a>
-						<a href="#"><i class="icon-facebook medium-icon white-border"></i></a>
+						<a href="#"><i class="icon-facebook white-border"></i></a>
 						<a href="#"><i class="icon-dribbble medium-icon white-border"></i></a>
 					</p>
 				</div>
 			</li>
 		</ul>
 		<nav class="slides-navigation">
-			<a href="#" class="prev"><i class="icon-long-arrow-left"></i></a>
-			<a href="#" class="next"><i class="icon-long-arrow-right"></i></a>
+			<a href="#" class="prev"><i class="icon-angle-left"></i></a>
+			<a href="#" class="next"><i class="icon-angle-right"></i></a>
 		</nav>
 	</div>
 
 
 	<!-- Introduction -->
 	<section id="introduction" class="introduction">
+		<!-- Process steps -->
 		<div class="row">
-			<div class="ten columns offset-by-one">
-				<h2 class="grey">We are <a href="#services" class="normal hovercolor">a fully responsive &amp; effective template</a> and we're here <a href="#about-us" class="normal hovercolor">for you and your</a> photographs, illustrations and other <a href="#portfolio" class="normal hovercolor">beautiful designs</a>.</h2>
+		
+			<!-- Process step -->
+			<div class="desktop-two columns offset-by-one tablet-four columns mobile-four columns">
+				<%= image_tag('Wedding.png') %>
+				<h3>Weddings</h3>
 			</div>
-		</div>
-	</section>
+			
+			<!-- Process step -->
+			<div class="desktop-two columns tablet-four columns mobile-four columns">
+				<%= image_tag('Anniversary.png') %>
+				<h3>Aniversaries</h3>
+			</div>
+			
+			<!-- Process step -->
+			<div class="desktop-two columns tablet-four columns mobile-four columns">
+				<%= image_tag('Party.png') %>
+				<h3>Parties</h3>
+			</div>
+			
+			<!-- Process step -->
+			<div class="desktop-two columns tablet-four columns mobile-eight columns">
+				<%= image_tag('Meeting.png') %>
+				<h3>Meetings</h3>
+			</div>
 
+			<!-- Process step -->
+			<div class="desktop-two columns tablet-four columns mobile-four columns">
+				<%= image_tag('Banquet.png') %>
+				<h3>Banquets</h3>
+			</div>
+			
+		</div>
+
+	</section>
 
 	<!-- Services -->
 	<section id="services" class="services">
@@ -70,27 +100,23 @@
 					<li>
 						<!-- Service -->
 						<h3 class="color">We design</h3>
-						<p>Design often necessitates considering the aesthetic and functional dimensions of both the design object and process. It involves research, thought, modeling, interactive adjustment, and re-design. Diverse kinds of objects may be designed, including clothing, graphical user interfaces and corporate identities.</p>
 					</li>
 					<li>
 						<!-- Service -->
 						<h3 class="color">We code</h3>
-						<p>Coding often necessitates considering the aesthetic and functional dimensions of both the design object and process. It involves research, thought, modeling, interactive adjustment, and re-design. Diverse kinds of objects may be designed, including clothing, graphical user interfaces and corporate identities.</p>
 					</li>
 					<li>
 						<!-- Service -->
 						<h3 class="color">We make illustrations</h3>
-						<p>Illustration often necessitates considering the aesthetic and functional dimensions of both the design object and process. It involves research, thought, modeling, interactive adjustment, and re-design. Diverse kinds of objects may be designed, including clothing, graphical user interfaces and corporate identities.</p>
 					</li>
 					<li>
 						<!-- Service -->
 						<h3 class="color">We take beautiful pictures</h3>
-						<p>Photography often necessitates considering the aesthetic and functional dimensions of both the design object and process. It involves research, thought, modeling, interactive adjustment, and re-design. Diverse kinds of objects may be designed, including clothing, graphical user interfaces and corporate identities.</p>
 					</li>
 				</ul>
 			</div>
 		</div>
-		
+
 		<!-- Circle controls -->
 		<div class="row">
 			<div class="services-buttons">
@@ -100,6 +126,10 @@
 				<a data-rel="4" href="javascript:void(0);" class="servicesLink"><i class="icon-camera"></i></a>
 			</div>
 		</div>
+
+
+
+
 
 	</section>
 
@@ -174,45 +204,45 @@
 		
 			<!-- Project item -->
 			<div class="desktop-four columns tablet-six columns mobile-six columns mix illustration project-item">
-				<a class="popup" href="assets/placeholder-thumbnail.jpg">
+				<a class="popup" href="placeholder-thumbnail.jpg">
 					<span class="project-hover">
 						<span>Project Title<br>
 						<b>Illustration</b></span>
 					</span>
-					<%= image_tag('assets/placeholder-thumbnail.jpg', :alt => "placeholder-thumbnail") %>
+					<%= image_tag('placeholder-thumbnail.jpg', :alt => "placeholder-thumbnail") %>
 				</a>
 			</div>
 			
 			<!-- Project item -->
 			<div class="desktop-four columns tablet-six columns mobile-six columns mix website project-item">
-				<a class="popup" href="assets/placeholder-thumbnail.jpg">
+				<a class="popup" href="placeholder-thumbnail.jpg">
 					<span class="project-hover">
 						<span>Company INC<br>
 						<b>Webdesign</b></span>
 					</span>
-					<%= image_tag('assets/placeholder-thumbnail.jpg', :alt => "placeholder-thumbnail") %>
+					<%= image_tag('placeholder-thumbnail.jpg', :alt => "placeholder-thumbnail") %>
 				</a>
 			</div>
 			
 			<!-- Project item -->
 			<div class="desktop-four columns tablet-six columns mobile-six columns mix photo project-item">
-				<a class="popup" href="assets/placeholder-thumbnail.jpg">
+				<a class="popup" href="placeholder-thumbnail.jpg">
 					<span class="project-hover">
 						<span>Autumn<br>
 						<b>Photography</b></span>
 					</span>
-					<%= image_tag('assets/placeholder-thumbnail.jpg', :alt => "placeholder-thumbnail") %>
+					<%= image_tag('placeholder-thumbnail.jpg', :alt => "placeholder-thumbnail") %>
 				</a>
 			</div>
 			
 			<!-- Project item -->
 			<div class="desktop-four columns tablet-six columns mobile-six columns mix photo project-item">
-				<a class="popup" href="assets/placeholder-thumbnail.jpg">
+				<a class="popup" href="placeholder-thumbnail.jpg">
 					<span class="project-hover">
 						<span>Traveling<br>
 						<b>Photography</b></span>
 					</span>
-					<%= image_tag('assets/placeholder-thumbnail.jpg', :alt => "placeholder-thumbnail") %>
+					<%= image_tag('placeholder-thumbnail.jpg', :alt => "placeholder-thumbnail") %>
 				</a>
 			</div>
 			
@@ -223,18 +253,18 @@
 						<span>Details Page<br>
 						<b>Webdesign &amp; Branding</b></span>
 					</span>
-					<%= image_tag('assets/placeholder-thumbnail.jpg', :alt => "placeholder-thumbnail") %>
+					<%= image_tag('placeholder-thumbnail.jpg', :alt => "placeholder-thumbnail") %>
 				</a>
 			</div>
 			
 			<!-- Project item -->
 			<div class="desktop-four columns tablet-six columns mobile-six columns mix photo project-item">
-				<a class="popup" href="assets/placeholder-thumbnail.jpg">
+				<a class="popup" href="placeholder-thumbnail.jpg">
 					<span class="project-hover">
 						<span>Portraits<br>
 						<b>Photography</b></span>
 					</span>
-					<%= image_tag('assets/placeholder-thumbnail.jpg', :alt => "placeholder-thumbnail") %>
+					<%= image_tag('placeholder-thumbnail.jpg', :alt => "placeholder-thumbnail") %>
 				</a>
 			</div>
 			
@@ -245,18 +275,18 @@
 						<span>Project Title<br>
 						<b>YouTube Video</b></span>
 					</span>
-					<%= image_tag('assets/placeholder-thumbnail.jpg', :alt => "placeholder-thumbnail") %>
+					<%= image_tag('placeholder-thumbnail.jpg', :alt => "placeholder-thumbnail") %>
 				</a>
 			</div>
 			
 			<!-- Project item -->
 			<div class="desktop-four columns tablet-six columns mobile-six columns mix website project-item">
-				<a class="popup" href="images/placeholder-thumbnail.jpg">
+				<a class="popup" href="placeholder-thumbnail.jpg">
 					<span class="project-hover">
 						<span>Focus<br>
 						<b>Webdesign &amp; Branding</b></span>
 					</span>
-					<%= image_tag('assets/placeholder-thumbnail.jpg', :alt => "placeholder-thumbnail") %>
+					<%= image_tag('placeholder-thumbnail.jpg', :alt => "placeholder-thumbnail") %>
 				</a>
 			</div>
 
@@ -267,7 +297,7 @@
 						<span>Project Title<br>
 						<b>Vimeo Video</b></span>
 					</span>
-					<%= image_tag('assets/placeholder-thumbnail.jpg', :alt => "placeholder-thumbnail") %>
+					<%= image_tag('placeholder-thumbnail.jpg', :alt => "placeholder-thumbnail") %>
 				</a>
 			</div>
 			
@@ -327,7 +357,7 @@
 		
 			<!-- Employee -->
 			<div class="desktop-three columns tablet-six columns mobile-six columns">
-				<%= image_tag('assets/placeholder-thumbnail.jpg', :alt => "placeholder-thumbnail") %>
+				<%= image_tag('placeholder-thumbnail.jpg', :alt => "placeholder-thumbnail") %>
 				<h3>John Doe</h3>
 				<p class="script">Creative Director</p>
 				<a href="#"><i class="icon-facebook small-icon"></i></a>
@@ -338,7 +368,7 @@
 			
 			<!-- Employee -->
 			<div class="desktop-three columns tablet-six columns mobile-six columns">
-				<%= image_tag('assets/placeholder-thumbnail.jpg', :alt => "placeholder-thumbnail") %>
+				<%= image_tag('placeholder-thumbnail.jpg', :alt => "placeholder-thumbnail") %>
 				<h3>Jane Aniston</h3>
 				<p class="script">Graphic Designer</p>
 				<a href="#"><i class="icon-facebook small-icon"></i></a>
@@ -349,7 +379,7 @@
 			
 			<!-- Employee -->
 			<div class="desktop-three columns tablet-six columns mobile-six columns">
-				<%= image_tag('assets/placeholder-thumbnail.jpg', :alt => "placeholder-thumbnail") %>
+				<%= image_tag('placeholder-thumbnail.jpg', :alt => "placeholder-thumbnail") %>
 				<h3>Edward Johnson</h3>
 				<p class="script">Illustrator</p>
 				<a href="#"><i class="icon-facebook small-icon"></i></a>
@@ -360,7 +390,7 @@
 			
 			<!-- Employee -->
 			<div class="desktop-three columns tablet-six columns mobile-six columns">
-				<%= image_tag('assets/placeholder-thumbnail.jpg', :alt => "placeholder-thumbnail") %>
+				<%= image_tag('placeholder-thumbnail.jpg', :alt => "placeholder-thumbnail") %>
 				<h3>Eva Green</h3>
 				<p class="script">Photographer</p>
 				<a href="#"><i class="icon-facebook small-icon"></i></a>
@@ -387,21 +417,21 @@
 						<i class="icon-star rating"></i>
 						<h2>This template is simply amazing!</h2>
 						<p>&mdash; David Carson, CEO of Big Business INC</p>
-						<%= image_tag('assets/placeholder-avatar.jpg', :alt => "placeholder-avatar", :class => "image-center image-circle") %>
+						<%= image_tag('placeholder-avatar.jpg', :alt => "placeholder-avatar", :class => "image-center image-circle") %>
 					</li>
 					<li>
 						<!-- Quote -->
 						<p class="quote-symbol">&ldquo;</p>
 						<h2>Graphic design will save the world right after good music does.</h2>
 						<p>&mdash; Victor Papanek, CEO of Company INC</p>
-						<%= image_tag('assets/placeholder-avatar.jpg', :alt => "placeholder-avatar", :class => "image-center image-circle") %>
+						<%= image_tag('placeholder-avatar.jpg', :alt => "placeholder-avatar", :class => "image-center image-circle") %>
 					</li>
 					<li>
 						<!-- Quote -->
 						<p class="quote-symbol">&ldquo;</p>
 						<h2>Design should never say, "Look at me."<br>It should always say, "Look at this."</h2>
 						<p>&mdash; David Craib, CEO of Designers INC</p>
-						<%= image_tag('assets/placeholder-avatar.jpg', :alt => "placeholder-avatar", :class => "image-center image-circle") %>
+						<%= image_tag('placeholder-avatar.jpg', :alt => "placeholder-avatar", :class => "image-center image-circle") %>
 					</li>
 				</ul>
 			</div>
@@ -411,7 +441,7 @@
 
 	<!-- Contact -->
 	<section id="contact" class="contact">
-		<div class="header-inherited" style="background-image: url('placeholder-slide-1.jpg');">
+		<div class="header-inherited" style="background-image: url('assets/placeholder-slide-1.jpg');">
 			<div class="row">
 				<div class="eight columns offset-by-two">
 					<div id="contact-slider">
@@ -468,14 +498,6 @@
 	</div>
 	<!-- The end -->
 <!-- Scripts -->
-	<script src="assets/jquery.min.js"></script>
-	<script src="assets/classie.js"></script>
-	<script src="assets/smoothscroll.js"></script>
-	<script src="assets/jquery.fittext.js"></script>
-	<script src="assets/jquery.superslides.min.js"></script>
-	<script src="assets/jquery.sudoslider.min.js"></script>
-	<script src="assets/jquery.mixitup.min.js"></script>
-	<script src="assets/jquery.magnific-popup.min.js"></script>
-	<script src="assets/main.js"></script>
+<%= javascript_include_tag "application" %>
 
 
