@@ -1072,6 +1072,8 @@ a i:hover {
 	clear: both;
 }
 
+
+
 /* Slides navigation arrows */
 .slides-navigation {
 	margin: 0 auto;
@@ -1463,11 +1465,11 @@ a.filter.light:hover {
 	background: #f7f7f7;
 	width: 100%;
 	padding-top: 0px;
-	padding-bottom: 80px;
+	padding-bottom: 0px;
 }
 
 .about-us .header {
-	margin-bottom: 50px;
+	margin-bottom: 0px;
 }
 
 /* Avatars */

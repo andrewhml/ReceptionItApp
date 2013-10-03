@@ -1,3 +1,81 @@
 // Place all the styles related to the subscribes controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+/* ==================== 1.0 Divider Section ==================== */
+
+#divider {
+	background: #bbbdc0;
+	width: 100%;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+/* ==================== 1.1 Events Section ==================== */
+
+.event-types {
+	background: #ffffff;
+	width: 100%;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.event-types p{
+	margin: 5px 0px 10px 0px;
+}
+
+.intro{
+	margin-top: 20px;
+}
+
+
+/* Font color */
+h1.color,
+h2.color,
+h3.color,
+h4.color,
+h5.color,
+h6.color,
+p.color,
+span.color,
+a,
+a.hovercolor:hover,
+span.hovercolor:hover,
+.border,
+.border:hover,
+.menu h1.logo a:hover,
+.menu-left h1.logo a:hover,
+.services-buttons a.current,
+a.filter.active,
+a.filter:hover,
+a.filter.light:hover,
+.contact a:hover,
+.credit a:hover {
+color: #eeb83e;
+}
+
+/* Background color */
+.button,
+.button-large,
+i.small-icon,
+i.medium-icon,
+i.column-icon,
+.services-arrow-prev,
+.services-arrow-next,
+.call-to-action,
+.avatars i:hover,
+.quote-arrow-prev,
+.quote-arrow-next,
+.back-to-top,
+.process,
+.portfolio-arrow-prev,
+.portfolio-arrow-next,
+ol.controls li.current {
+background: #eeb83e;
+}
+
+/* Border color */
+.border,
+.services-buttons a.current {
+border: 2px solid #eeb83e;
+}
