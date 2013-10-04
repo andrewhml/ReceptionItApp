@@ -51,7 +51,7 @@ a.filter:hover,
 a.filter.light:hover,
 .contact a:hover,
 .credit a:hover {
-color: #eeb83e;
+color: #e6626d;
 }
 
 /* Background color */
@@ -67,15 +67,62 @@ i.column-icon,
 .quote-arrow-prev,
 .quote-arrow-next,
 .back-to-top,
-.process,
 .portfolio-arrow-prev,
 .portfolio-arrow-next,
 ol.controls li.current {
-background: #eeb83e;
+background: #e6626d;
 }
 
 /* Border color */
 .border,
 .services-buttons a.current {
-border: 2px solid #eeb83e;
+border: 2px solid #e6626d;
+}
+
+.slides-container li {
+	color: #e6626d;
+}
+
+/* ==================== 2.5 Process ==================== */
+
+.benefits {
+	color: #ffffff;
+	background: #f85c37;
+	width: 100%;
+	padding-top: 60px;
+	padding-bottom: 50px;
+}
+
+.benefits h3 {
+	margin-top: 0;
+	color: #e6626d;
+}
+
+.benefits p {
+	font-size: 14px;
+	margin-bottom: 0;
+	color: #1a1a1a;
+}
+
+i.benefits-icon {
+	display: inline-block;
+	vertical-align: middle; 
+	text-align: center;
+	width: 140px;
+	height: 140px;
+	font-size: 56px;
+	line-height: 136px;
+	margin-top: 35px;
+	margin-bottom: 15px;
+	color: #e6626d;
+	border: 2px solid #c0c0c0;
+	border-radius: 50%;
+}
+
+i.benefits-icon:hover {
+	font-size: 70px;
+}
+
+.benefits{
+	background: #f7f7f7;
 }
