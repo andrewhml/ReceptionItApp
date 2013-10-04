@@ -705,15 +705,15 @@ img {
 	height: 50px;
 	margin: 0 auto;
 	overflow: hidden;
-	position: absolute;
-	top: 40%;
+	position: relative;
+	top: 80%;
 }
 
 .text-ticker ul {
-	-webkit-animation: ticker 5s cubic-bezier(1, 0, .5, 0) infinite;
-	   -moz-animation: ticker 5s cubic-bezier(1, 0, .5, 0) infinite;
-		-ms-animation: ticker 5s cubic-bezier(1, 0, .5, 0) infinite;
-			animation: ticker 5s cubic-bezier(1, 0, .5, 0) infinite;
+	-webkit-animation: ticker 8s cubic-bezier(1, 0, .5, 0) infinite;
+	   -moz-animation: ticker 8s cubic-bezier(1, 0, .5, 0) infinite;
+		-ms-animation: ticker 8s cubic-bezier(1, 0, .5, 0) infinite;
+			animation: ticker 8s cubic-bezier(1, 0, .5, 0) infinite;
 }
 
 /* Uncomment this if you want to pause the text on hover 
@@ -1064,7 +1064,7 @@ a i:hover {
 	left: 0;
 	overflow-y: auto;
 	-webkit-overflow-scrolling: touch;
-	height: 75%;
+	height: 100%;
 }
 
 #slides .scrollable:after {
