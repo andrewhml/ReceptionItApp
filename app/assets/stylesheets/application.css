@@ -1714,6 +1714,7 @@ a.contactLink {
 /* Credits and back to top button */
 .contact-bottom {
 	position: relative;
+	top: 80%;
 }
 
 .credit {
@@ -1751,6 +1752,7 @@ a.contactLink {
 	left: 0;
 	right: 0;
 	margin: auto;
+
 }
 
 .back-to-top:hover {
